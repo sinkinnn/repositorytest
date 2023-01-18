@@ -1,8 +1,10 @@
 --------------- BUILDING AI COURSE ASSIGNMENT --------------
 
-Your idea in a nutshell: Name your project and prepare to describe it briefly.
+Your idea in a nutshell: PDF-Reader
 
 ---- JOB APPLICATION ATTACHMENT GRADE CALCULATOR --------
+
+PDF-reader to identify objects
 
 Idea is that PDF documents recognize directly values and characters, turning into fex. Excel spreadsheet and calculate values
 Could be referenced as a scanner for school documents
