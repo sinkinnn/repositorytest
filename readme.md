@@ -1,45 +1,79 @@
---------------- BUILDING AI COURSE ASSIGNMENT --------------
+<!-- This is the markdown template for the final project of the Building AI course, 
+created by Reaktor Innovations and University of Helsinki. 
+Copy the template, paste it to your GitHub README and edit! -->
 
-Your idea in a nutshell: PDF-Reader
+# Project Title
 
----- JOB APPLICATION ATTACHMENT GRADE CALCULATOR --------
+Final project for the Building AI course
 
-PDF-reader to identify objects
+## Summary
 
-Idea is that PDF documents recognize directly values and characters, turning into fex. Excel spreadsheet and calculate values
-Could be referenced as a scanner for school documents
-At first notice the columns like (number of courses) and then rows (grade)
-Also rows with letter to be noticed like (PASS/FAIL) and so forth.
-Background:
+Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
 
-What is the problem your idea will solve? -The idea would be that students, job employers or any other job applications who need to quickly notify their documents into values, could use the app without calculating manually. -Same type of issue as LinkedIn 'quick apply' type of button
 
-How common or frequent is this problem? -Everyday problem as people seek jobs in consultant companies that require accurate values of transcript of records, diplomas, degrees et cetera.
+## Background
 
-What is your personal motivation? -My personal motivation would be to get rid of unnecessary paper of old school work, certificate of employments and so on.
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 
-Why is this topic important or interesting? -This topic would be easier for anyone working on human resources to automate childish a like tasks into digitized version.
+This is how you make a list, if you need one:
+* problem 1
+* problem 2
+* etc.
 
-Data and AI techniques:
 
-What data sources does your project depend on? -Almost all AI solutions depend on some data. The availability and quality of the data are essential.
+## How is it used?
 
-Data would be pdf documents.
+Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
-Which AI techniques do you think will be helpful?
+Images will make your README look nice!
+Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
--Techniques that are used in my Master's Degree Thesis Work.
+If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 
-Depending on whether you've been doing the programming exercises or not, you may choose to include a concrete demo implemented by coding, using some actual data! How is it used: What is the context in which your solution is used, and by whom?
+This is how you create code examples:
+```
+def main():
+   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
+   fishers = [1891, 2652, 3800, 11611, 1757]
 
--Preferrably write few line of code as you read in PDF documents with Python -The next one is to automate or just notice some University fonts or characters so could create a demo link for university.
+   totPop = sum(pop)
+   totFish = sum(fishers)
 
-Who are the people affected by it? It’s important to appreciate the viewpoints of all those affected. -The student's or attendees graduating.
+   # write your solution here
 
-Challenges: What does your project not solve? It’s important to understand that any technological solution will have its limitations. -The project does not solve misconceptions with different studies.
+   for i in range(len(countries)):
+      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
 
--FEX: If two students apply for the same job, an HR assistant need to assign which one has more valid course completed for the job position.
+main()
+```
 
-What next: How could your project grow and become something even more? -This project could wider even more than LinkedIn or other careers page on websites.. People could be hired easier.
 
-Acknowledgments: If you’re using open source code or documents in your project, make sure you give credit to the creators. Mention your sources of inspiration, too. -Thanks, sure do
+## Data sources and AI methods
+Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+If you need to use links, here's an example:
+[Twitter API](https://developer.twitter.com/en/docs)
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+## Challenges
+
+What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+
+## What next?
+
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+
+
+## Acknowledgments
+
+* list here the sources of inspiration 
+* do not use code, images, data etc. from others without permission
+* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+* etc
